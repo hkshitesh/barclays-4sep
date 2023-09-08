@@ -14,6 +14,10 @@ public class MyCalc {
 	{
 		return (a*b);
 	}
+	public void display()
+	{
+		System.out.println("Hello Barclays");
+	}
 	public static void main(String[] args) {
 		
 		MyCalc calc = new MyCalc();

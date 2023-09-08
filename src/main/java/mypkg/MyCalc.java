@@ -18,6 +18,10 @@ public class MyCalc {
 	{
 		System.out.println("Hello Barclays");
 	}
+	public void Greeting()
+	{
+		System.out.println("Hello from Barclays Team");
+	}
 	public static void main(String[] args) {
 		
 		MyCalc calc = new MyCalc();
@@ -31,5 +35,7 @@ public class MyCalc {
 		System.out.println("Sum is : "+calc.sum(num1, num2));
 		System.out.println("Diff is : "+calc.diff(num1, num2));
 		System.out.println("Mul is : "+calc.mul(num1, num2));
+		calc.display();
+		calc.Greeting();
 	}
 }
